@@ -2,6 +2,7 @@
 .gradle
 
 #Ignore IDE project files
+.metadata
 .settings
 .project
 .classpath
