@@ -12,11 +12,11 @@ When I add `@ugly.email` to field located `By.xpath(//input[@id='email'])`
 When I click on element located `By.xpath(//input[@id='signup'])`
 When I wait until element located `By.xpath(//input[@id='name'])` appears
 When I enter `<nameNew>` in field located `By.xpath(//input[@id='name'])`
-When I enter `#{generate(regexify '[1-5]{4}[a-z]{5}` in field located `By.xpath(//input[@id='password'])`
+When I enter `<password>` in field located `By.xpath(//input[@id='password'])`
 When I click on element located `By.xpath(//input[@id='signup'])`
 Examples:
-|nameNew                      |
-|#{generate(Name.firstName)}  |
+|nameNew                      |password                             |
+|#{generate(Name.firstName)}  |#{generate(regexify '[1-5]{4}[a-z]{5}|
 
 Scenario: API 
 !-- key finding
